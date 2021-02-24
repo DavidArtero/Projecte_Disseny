@@ -1,0 +1,55 @@
+<div class="text-center mt-3">
+    <form class="form-signin" (ngSubmit)="onSubmitRegister()">
+    
+      <p class="mb-5">
+          Ja tens compte? <a [routerLink]="['']" style= color:blue class="ml-1"> Loggin</a>
+          </p>
+
+          <h1 class="h3 mb-5 font-weight-normal">Registre <span style="color:blue">Teach Dashboard</span></h1>
+
+          <div class="row" style="width: 100%;align-items: center;margin-left: 0px;margin-right: 0px;justify-content: center;">
+            <div class="column" style="display: inline-block;width: 43%;margin-left: 0px;margin-right: auto;height: 2px;background: #C0C0C0; 
+            vertical-align: middle;"></div>
+
+            <div class="column" id="circle" style="display: inline-block; width: 10px; height: 10px;"></div>
+
+            <div _ngcontent-c4="" class="column" style="display: inline-block;width: 43%;margin-left: auto;
+            margin-right: 0px;height: 2px;background: #C0C0C0; vertical-align: middle;"></div></div>
+
+            <div class="mb-3 mt-4">       
+                <label class="float-left">Nom</label>        
+                <input type="text" id="inputNom" class="form-control" placeholder="Nom" required autofocus="">
+                
+            </div>
+
+          
+            <div class="mb-3 mt-4">       
+                <label class="float-left">Email</label>        
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email" required >
+            </div>
+
+            <div class="mb-3 mt-4">
+                <label class="float-left">Contrasenya</label>   
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input [type]="passwordType" id="inputPassword" class="form-control" placeholder="Contrasenya" required>
+             </div>
+
+             <div class="mb-3 mt-4">
+                <label class="float-left">Confirmació contrasenya</label>   
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input [type]="passwordType" id="inputPassword2" class="form-control" placeholder="Contrasenya" required>
+             </div>
+
+            <ng-template [ngIf]="registerSuccess">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>Ups!</strong> Has d'omplenar tots els camps abans de poder registrar-te.
+                    <button id= "alertCloseButton" type="button" class="close" data-dismiss="alert" aria-label="Close" >
+                      <span aria-hidden="true" (click)="onClosed()">&times;</span>
+                    </button>
+                  </div>
+            </ng-template>
+
+        <button id= "Registre" class="btn btn-lg btn-primary btn-block" type="submit">Registrar-se</button>
+        <p class="mt-5 mb-3 text-muted">© Teach Dashboard 2021</p>
+    </form>
+</div>

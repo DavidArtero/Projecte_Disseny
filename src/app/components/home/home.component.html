@@ -1,0 +1,37 @@
+<div class="text-center mt-3">
+    <form class="form-signin">
+    
+      <p class="mb-5" >
+          Encara no tens compte? <a [routerLink]="['register']" style= color:blue class="ml-1"> Registra't</a>
+          </p>
+
+          <h1 class="h3 mb-5 font-weight-normal">Benvingut a <span style="color:blue">Teach Dashboard</span></h1>
+
+          <div class="row" style="width: 100%;align-items: center;margin-left: 0px;margin-right: 0px;justify-content: center;">
+            <div class="column" style="display: inline-block;width: 43%;margin-left: 0px;margin-right: auto;height: 2px;background: #C0C0C0; 
+            vertical-align: middle;"></div>
+
+            <div class="column" id="circle" style="display: inline-block; width: 10px; height: 10px;"></div>
+
+            <div _ngcontent-c4="" class="column" style="display: inline-block;width: 43%;margin-left: auto;
+            margin-right: 0px;height: 2px;background: #C0C0C0; vertical-align: middle;"></div></div>
+          
+            <div class="mb-3 mt-4">               
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="">
+            </div>
+
+            <div class="mb-3">
+               <span class="text-right mb-1" (click)="showOrHidePassword()" style="float: right; color:blue; font-size: 14px; margin-bottom: 5px; font-family: Montserrat; cursor: pointer;"> 
+                {{ showPass }} </span>
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input [type]="passwordType" id="inputPassword" class="form-control" placeholder="Contrasenya" required="">
+             </div>
+
+            <div class="mb-4 mt-1"> 
+                <a href="" style="float: left; color:blue; font-size: 14px; margin-bottom: 5px; font-family: Montserrat; cursor: pointer;" > 
+                    He oblidat la contrasenya</a>
+            </div>
+      <button id= "iniciSessio" class="btn btn-lg btn-primary btn-block" type="submit"  (click)="onSubmitIniciarSessio()">Iniciar sessió</button>
+      <p class="mt-5 mb-3 text-muted">© Teach Dashboard 2021</p>
+    </form>
+</div>
