@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { RegisterComponent } from './components/register/register.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { NavComponent } from './components/nav/nav.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { FaqsComponent } from './components/faqs/faqs.component';
 
 
 
@@ -14,7 +17,10 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     AppComponent,
     HomeComponent,
     RegisterComponent,
-    DashboardComponent
+    DashboardComponent,
+    NavComponent,
+    FooterComponent,
+    FaqsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,24 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: center;
+ }
+
+ .social-items{
+     color:black;
+     margin: 10px
+ }
+
+
+
+.socialHover :hover{
+    color: blue;
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+    z-index: 95;
+    
+}
