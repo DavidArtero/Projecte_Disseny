@@ -7,7 +7,7 @@
     
         <div class="searchDiv row d-flex justify-content-center" stlye="margin-top:20px">
             <div class="box buttonsSearch shadow" style="border-radius: 12px; float: left; position: absolute">
-                <i class="fas fa-search"
+                <i class="fas fa-search" 
                 style="color: #58949b;border-radius: 5px;font-size: 20px; cursor: pointer; float: right;"
                 ></i>
                 <input type="text" class="search-text" placeholder="Troba el que busques" id="myinputsearch"
@@ -27,8 +27,8 @@
     <!-- Cards Section -->
     <div class="row h-auto">
     
-    <div class="col-lg-3 col-md-6 col-xs-12 mb-5" style="height: fit-content; width: 800px; ">
-      <div class="shadow p-4  justify-content-center mx-auto card">
+    <div class="col-lg-3 col-md-6 col-xs-12 mb-5" style="height: fit-content; width: 800px;">
+      <div [routerLink]="['../alumnes']" class="shadow p-4  justify-content-center mx-auto card">
         <div style="text-align: center;">
         <img src="../../../assets/images/alumno.jpg" height="120px" width="120px" alt="">
       </div>

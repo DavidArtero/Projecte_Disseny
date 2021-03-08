@@ -9,6 +9,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FaqsComponent } from './components/faqs/faqs.component';
+import { MatTabsModule } from '@angular/material/tabs';
+import {BrowserAnimationsModule, NoopAnimationsModule} from '@angular/platform-browser/animations';
+import { AlumnesComponent } from './components/alumnes/alumnes.component';
 
 
 
@@ -20,11 +23,15 @@ import { FaqsComponent } from './components/faqs/faqs.component';
     DashboardComponent,
     NavComponent,
     FooterComponent,
-    FaqsComponent
+    FaqsComponent,
+    AlumnesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatTabsModule,
+    BrowserAnimationsModule,
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

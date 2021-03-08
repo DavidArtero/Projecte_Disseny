@@ -1,3 +1,31 @@
 .navHover :hover{
     background-color: #eee;
 }
+
+.dropdown-menu {
+    left:-40px;
+}
+
+.dropdown-toggle::after {
+    display:none
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .picture-nav {
+      display:none;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .faqsImage {
+      display:none;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .faqsResponsive {
+      display:none;
+    }
+  }

@@ -20,5 +20,26 @@
     -webkit-transform: scale(1.8);
     transform: scale(1.8);
     z-index: 95;
-    
 }
+
+#accordion{
+    width: 100% ;
+}
+
+
+
+.card-header{
+    background-color: transparent!important;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem blue imp !important;
+}
+
+.botoFAQ:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem blue imp !important;
+}
+
+

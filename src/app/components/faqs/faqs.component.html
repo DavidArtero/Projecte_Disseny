@@ -1,8 +1,175 @@
-<!-- <mat-tab-group animationDuration="0ms" mat-stretch-tabs [disableRipple]="true">
-    <mat-tab label="WiPass Dashboard">
-     
-      <div style="margin: 0 auto; width: 100%; display: block; justify-content: center; margin-top: 50px; text-align: center;">
-        <p style="color: #58949B; font-family: Montserrat; font-size: 26px;"> WiPass Dashboard </p>
-      </div>
-    </mat-tab>
-</mat-tab-group> -->
+<app-nav></app-nav>
+<div>
+    <div class="container justify-content-center mt-5 mb-5 shadow text-center align-content mx-auto bg-light" 
+                style="
+                border-radius: 10px;
+                outline: none;
+                padding: 1cm;">
+
+            <mat-tab-group animationDuration="0ms" mat-stretch-tabs [disableRipple]="true">
+                <mat-tab label="Teach Dashboard">
+                <!-- title -->
+                <div class="text-center justify-content-center mx-auto mt-5 w-100 block">
+                    <p style="color: blue; font-family: Montserrat; font-size: 26px;"> Teach Dashboard </p>
+                </div>
+
+                <!-- steps -->
+                <div class="mx-auto mt-4 w-100">
+                    <div id="accordion">
+                        <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                            <button class="btn btn-link botoFAQ" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                               Què és el Teach Dashboard
+                            </button>
+                            </h5>
+                        </div>
+                    
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                Teach Dashoard és una eina de treball pels tutors i treballadors del Insitut Sapalomera.
+                                L'eina ha sigut creada per Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ut pariatur facilis saepe quos ratione culpa! Sapiente ad vel quidem. Porro ipsum error iste sunt ratione qui eum magnam quas.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Quina utilitat té?
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" > 
+                               Es pot tenir un control total de les tasques i els resultats?
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                            Amb Teach Dashboard pots tenir un control de les tasques a realitzar pels teus alumnes, així com modificar-les i consultar les entregues en temps real.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                </mat-tab>
+
+                <mat-tab label="Funcionalitats">
+                    <div class="text-center justify-content-center mx-auto mt-5 w-100 block">
+                        <p style="color: blue; font-family: Montserrat; font-size: 26px;"> Funcionalitats </p>
+                    </div>
+
+
+                    <!-- steps -->
+                    <div class="mx-auto mt-4 w-100">
+                        <div id="accordion">
+                            <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                <button class="btn btn-link botoFAQ" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                   Què són les funcionalitats
+                                </button>
+                                </h5>
+                            </div>
+                        
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, dolore nulla. Blanditiis quod quae perferendis atque facere amet. Corporis id eligendi officiis quisquam quis quibusdam esse? Ut nihil natus veniam?
+                                </div>
+                            </div>
+                            </div>
+                            <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Quines funcionalitats té?
+                                </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                            </div>
+                            <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" > 
+                                   Funcionalitats especials
+                                </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, aliquam at. Quidem quasi maiores.
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </mat-tab>
+
+                
+
+
+                <mat-tab label="Configuració">
+                    <div class="text-center justify-content-center mx-auto mt-5 w-100 block">
+                        <p style="color: blue; font-family: Montserrat; font-size: 26px;"> Configuració </p>
+
+                        <!-- steps -->
+                        <div class="mx-auto mt-4 w-100">
+                            <div id="accordion">
+                                <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                    <button class="btn btn-link botoFAQ" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                       Configuració bàsica
+                                    </button>
+                                    </h5>
+                                </div>
+                            
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos asperiores id dicta porro necessitatibus. Hic expedita sequi quo consectetur! Facere laudantium aliquam animi praesentium molestiae modi vel aliquid voluptate saepe.
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Configuracions especials
+                                    </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                    <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    Moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable.
+                                    </div>
+                                </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </mat-tab>
+
+
+            </mat-tab-group>
+
+    </div>
+
+</div>
