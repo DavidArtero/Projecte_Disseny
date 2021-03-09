@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -12,21 +13,37 @@ export class RegisterComponent implements OnInit {
 
   
   registerSuccess = false;
-  constructor() { }
+  constructor(private _router:Router) { }
 
   ngOnInit(): void {
   }
 
-  //Register submit button
-  onSubmitRegister(){
-    console.log("Submited");
-    this.registerSuccess = true;
+  textMostrar = "";
+
+
+
+  onSubmit(){
+    if($('#inputNom').val() == "" ||$('#inputEmail').val() == "" || $('#inputPassword').val() == "" || $('#inputPassword2').val() == "" ){
+      this.textMostrar = "Has d'omplenar tots els camps";
+      this.registerSuccess = true;
+    }else if($('#inputPassword').val() != $('#inputPassword2').val()){
+      this.textMostrar = "La contrasenya no coincideix!"
+      this.registerSuccess = true;
+    }
+    
+    
+    else{
+      alert("fine")
+      this._router.navigateByUrl('')
+    }
+    
   }
   
   
 
   onClosed() {
-    console.log("closing...")
+    //console.log("closing...")
+    console.log(this.registerSuccess)
     this.registerSuccess = false;
   }
 

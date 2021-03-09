@@ -36,6 +36,12 @@
     margin-top: 80px;
 }
 
+.principalDiv{
+  border-radius: 10px;
+  outline: none;
+  padding: 1cm;
+}
+
 #circle {
   border-radius: 50%;
   background: 0 0;
@@ -58,11 +64,6 @@
   cursor: pointer;
 }
 
-.principalDiv{
-  border-radius: 10px;
-  outline: none;
-  padding: 1cm;
-}
 
 .w43{
   width: 43%;

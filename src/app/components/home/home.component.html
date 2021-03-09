@@ -34,8 +34,8 @@
                 </div>
 
                 <ng-template  [ngIf]="registerSuccess">
-                    <div class="alert alert-warning alert-dismissible fade show m-top" role="alert">
-                        <strong>Ups!</strong> Has d'omplenar tots els camps abans de poder iniciar sessió.
+                    <div class="alert alert-danger alert-dismissible fade show m-top" role="alert">
+                        <strong>Ups!</strong> Has d'omplenar tots els camps per poder iniciar sessió.
                         <button id= "alertCloseButton" type="button" class="close" data-dismiss="alert" aria-label="Close" >
                           <span aria-hidden="true" (click)="onClosed()">&times;</span>
                         </button>
