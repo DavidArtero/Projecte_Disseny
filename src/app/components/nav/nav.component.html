@@ -28,7 +28,7 @@
           </li>
 
           <li class="nav-item navHover faqsResponsive">
-            <a class="nav-link" [routerLink]="['../faqs']">Perfil</a>
+            <a class="nav-link" [routerLink]="['../perfil']">Perfil</a>
           </li>
 
           <li class="nav-item navHover faqsResponsive">
@@ -51,8 +51,8 @@
         <img class ="mr-5" src="../../../assets/images/gen.png" height="35px" alt="" style="float:right; border-radius: 50%;"> 
       </a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Perfil</a>
-          <a class="dropdown-item" href="#">Configuració</a>
+          <a class="dropdown-item" [routerLink]="['../perfil']">Perfil</a>
+          <a class="dropdown-item" [routerLink]="['../perfil']">Configuració</a>
           <a class="dropdown-item" href="#">Tancar sessió</a>         
         </div>
      

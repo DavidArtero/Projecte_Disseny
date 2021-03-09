@@ -12,17 +12,29 @@ export class HomeComponent implements OnInit {
   showPass = "Mostrar contrasenya";
   passwordShown: boolean = false;
   passwordType: string = 'password';
+  registerSuccess: boolean;
 
   constructor(private _router:Router) { }
 
   ngOnInit(): void {
+
+  }
+
+  onSubmit(){
+    if($('#inputPassword').val() == "" ||$('#inputEmail').val() == "" ){
+      this.registerSuccess = true;
+    }else{
+      this._router.navigateByUrl('/home')
+    }
+    
   }
 
 
-  onSubmitIniciarSessio(){
-    console.log("Iniciar sessió");
-    this._router.navigate(['/home']); 
+  onClosed() {
+    console.log("closing...")
+    this.registerSuccess = false;
   }
+
 
   showOrHidePassword() {
     

@@ -23,6 +23,7 @@ export class RegisterComponent implements OnInit {
     this.registerSuccess = true;
   }
   
+  
 
   onClosed() {
     console.log("closing...")

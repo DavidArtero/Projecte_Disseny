@@ -42,3 +42,37 @@
   border: 2px solid #929dab;
 }
 
+.m-top{
+  margin-top:70px;
+}
+
+.f14{
+  font-size: 14px;
+}
+
+.blue{
+  color:blue;
+}
+
+.point{
+  cursor: pointer;
+}
+
+.principalDiv{
+  border-radius: 10px;
+  outline: none;
+  padding: 1cm;
+}
+
+.w43{
+  width: 43%;
+}
+
+.decoLine{
+  height: 2px;
+  background: #C0C0C0
+}
+
+.hw10{
+width: 10px; height: 10px;
+}

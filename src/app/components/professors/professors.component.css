@@ -1,0 +1,30 @@
+.buttonsSearch {
+    border: 1px solid #b5b3b3;
+}
+
+.fa-search:before {
+    content: "\f002";
+    color: blue;
+}
+
+.box {
+    background: #fff;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+
+.search-text{
+    border: hidden;
+    outline: none;
+}
+
+.shadow{
+    box-shadow: 1px 1px rgba(0,0,0,0.4);
+  }
+
+  .table td, .table th {
+      vertical-align: middle;
+  }
+
+  

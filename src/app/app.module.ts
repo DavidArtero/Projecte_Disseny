@@ -12,6 +12,8 @@ import { FaqsComponent } from './components/faqs/faqs.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import {BrowserAnimationsModule, NoopAnimationsModule} from '@angular/platform-browser/animations';
 import { AlumnesComponent } from './components/alumnes/alumnes.component';
+import { ProfessorsComponent } from './components/professors/professors.component';
+import { PerfilComponent } from './components/perfil/perfil.component';
 
 
 
@@ -24,7 +26,9 @@ import { AlumnesComponent } from './components/alumnes/alumnes.component';
     NavComponent,
     FooterComponent,
     FaqsComponent,
-    AlumnesComponent
+    AlumnesComponent,
+    ProfessorsComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,
