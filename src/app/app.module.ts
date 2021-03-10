@@ -14,8 +14,9 @@ import {BrowserAnimationsModule, NoopAnimationsModule} from '@angular/platform-b
 import { AlumnesComponent } from './components/alumnes/alumnes.component';
 import { ProfessorsComponent } from './components/professors/professors.component';
 import { PerfilComponent } from './components/perfil/perfil.component';
-
-
+import { SitemapComponent } from './components/sitemap/sitemap.component';
+import { UnderconstructionComponent } from './components/underconstruction/underconstruction.component';
+import * as $ from 'jquery';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,9 @@ import { PerfilComponent } from './components/perfil/perfil.component';
     FaqsComponent,
     AlumnesComponent,
     ProfessorsComponent,
-    PerfilComponent
+    PerfilComponent,
+    SitemapComponent,
+    UnderconstructionComponent
   ],
   imports: [
     BrowserModule,

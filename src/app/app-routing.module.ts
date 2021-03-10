@@ -8,6 +8,8 @@ import { FaqsComponent } from './components/faqs/faqs.component';
 import { AlumnesComponent } from './components/alumnes/alumnes.component';
 import { ProfessorsComponent } from './components/professors/professors.component';
 import { PerfilComponent } from './components/perfil/perfil.component';
+import { SitemapComponent } from './components/sitemap/sitemap.component';
+import { UnderconstructionComponent } from './components/underconstruction/underconstruction.component';
 
 
 const routes: Routes = [
@@ -42,6 +44,15 @@ const routes: Routes = [
   {
     path: 'perfil',
     component: PerfilComponent,
+  },
+  {
+    path: 'sitemap',
+    component: SitemapComponent,
+  }
+  ,
+  {
+    path: 'under-construction',
+    component: UnderconstructionComponent,
   }
 
 ];

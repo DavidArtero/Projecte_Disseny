@@ -1,0 +1,22 @@
+
+#circle {
+    border-radius: 50%;
+    background: 0 0;
+    border: 2px solid #929dab;
+  }
+  
+  .m-top{
+    margin-top:70px;
+  }
+  
+  .f14{
+    font-size: 14px;
+  }
+  
+  .blue{
+    color:blue;
+  }
+  
+  .point{
+    cursor: pointer;
+  }
